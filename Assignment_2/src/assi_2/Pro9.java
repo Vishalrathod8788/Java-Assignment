@@ -52,13 +52,13 @@ class Pro9
 {
 	public static void main(String...args)
 	{	
-		Person p = new x();
-		Person p1 = new x("abc","22/10/1980","male");
+		x p = new x();
+		x p1 = new x("abc","22/10/1980","male");
 		
 		y s = new y();
 		y s1 = new y("BCA", "HJD", "Shaurashtra University");
 		
-		Marks m = new z();
-		Marks m1 = new z('A',1,55,66,77);
+		z m = new z();
+		z m1 = new z('A',1,55,66,77);
 	}
 }
