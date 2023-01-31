@@ -7,7 +7,7 @@ public class Pro6
 	
 	void change(int a)
 	{
-		speed=a;//can't assign a value to final variable speed
+		//speed=a;//can't assign a value to final variable speed
 		System.out.println("New Speed:"+speed);
 	}
 	
