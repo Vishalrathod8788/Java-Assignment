@@ -7,6 +7,7 @@ class Person
 	public String Name;
 	public String Dob;
 	public String Gender;
+	
 	Scanner sr = new Scanner(System.in);
 	void get_stud_details()
 	{
