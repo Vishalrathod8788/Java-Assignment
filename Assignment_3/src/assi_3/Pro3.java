@@ -11,13 +11,14 @@ public class Pro3
 {
 	public static void main(String[] args) 
 	{
-		int a;
+		System.out.println("Enter Number :");
+		Scanner sc = new Scanner(System.in);
 		
-		
+		int n = sc.nextInt();
 		
 		Random random = new Random();
 		
-		for(int n=0;n<=n;n++)
+		for(int i=0;i<=n;i++)
 		{
 			System.out.println(random.nextInt());
 		}
