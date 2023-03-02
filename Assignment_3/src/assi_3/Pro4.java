@@ -13,7 +13,6 @@ public class Pro4 {
 			v1.addElement("VGR");
 			
 			System.out.println(v1);
-			System.out.println("Hello...");
 		}
 	
 }
