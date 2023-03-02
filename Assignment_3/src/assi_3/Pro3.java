@@ -18,7 +18,7 @@ public class Pro3
 		
 		Random random = new Random();
 		
-		for(int i=0;i<=n;i++)
+		for(int i=1;i<=n;i++)
 		{
 			System.out.println(random.nextInt());
 		}
