@@ -7,14 +7,12 @@ public class Pro4 {
 	
 		public static void main(String[] args)
 		{
+			System.out.println("Hii...");
 			Vector v1 = new Vector();
 			
-			String str = "Visha ";
-			v1.addElement(str);
-			v1.insertElementAt("Hello Friends", 2);
-			v1.size();
-			v1.removeElement("Hello Friends");
-			v1.clear();
+			v1.addElement("VGR");
+			
+			System.out.println(v1);
 			
 		}
 	
