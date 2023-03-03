@@ -39,7 +39,8 @@ public class Pro4 {
 			v1.addElement(v);
 			v1.addElement(v0);
 			v1.insertElementAt("Vishal", 1);
-		
+			v1.addElement(v.getNo(1));
+			
 			
 			for (int i = 0; i < v1.size(); i++)
 			{
