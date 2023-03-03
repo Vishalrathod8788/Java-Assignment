@@ -38,7 +38,9 @@ public class Pro4 {
 			System.out.println("Vecor Size " + v1.size());
 			v1.addElement(v);
 			v1.addElement(v0);
+			v1.insertElementAt("Vishal", 1);
 		
+			
 			for (int i = 0; i < v1.size(); i++)
 			{
 				System.out.println(i +" : "+v1.get(i));
