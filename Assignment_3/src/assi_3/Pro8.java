@@ -27,7 +27,7 @@ public class Pro8 {
 		}
 		catch (ArithmeticException ex) 
 		{
-			ex.printStackTrace();
+			System.out.println("Age is Not Valid");
 		}
 		
 		System.out.println("Program End...!");
