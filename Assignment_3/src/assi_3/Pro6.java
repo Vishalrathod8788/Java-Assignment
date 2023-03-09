@@ -2,8 +2,8 @@ package assi_3;
 
 import java.util.StringTokenizer;
 
-public class Pro6 {
-
+public class Pro6 
+{
 	public static void main(String[] args) 
 	{
 		String str = "hello;i:study;in:Bhavans's;shree:H.J.;Doshi;IT:Institute";
@@ -13,5 +13,4 @@ public class Pro6 {
 			System.out.println(st.nextToken());
 		}
 	}
-
 }
