@@ -15,11 +15,19 @@ public class Pro8 {
 		
 		age = sc.nextInt();
 		
-		if(age<0)
+		
+		try 
 		{
-			ArithmeticException ex = new ArithmeticException("Age is Not Valid");
-			throw ex;
-
+			if(age<0)
+			{
+				ArithmeticException ex = new ArithmeticException("Age is Not Valid");
+				throw ex;
+	
+			}
+		}
+		catch (ArithmeticException ex) 
+		{
+			ex.printStackTrace();
 		}
 		
 		System.out.println("Program End...!");
