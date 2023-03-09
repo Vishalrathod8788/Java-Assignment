@@ -11,7 +11,9 @@ public class Pro8 {
 		
 		System.out.println("Program Start...!");
 		
+		System.out.print("Enter Age : ");
 		
+		age = sc.nextInt();
 		
 		System.out.println("Program End...!");
 	}
