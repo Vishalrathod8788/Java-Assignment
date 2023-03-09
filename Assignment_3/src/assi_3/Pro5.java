@@ -4,7 +4,11 @@ public class Pro5 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
+		demo d1 = new demo(1, "Vishal");
+		d1.getId();
+		d1.setId(2);
+		d1.getName();
+		d1.setName("VGR");
 	}
 
 }
