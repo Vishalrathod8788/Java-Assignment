@@ -20,6 +20,7 @@ public class Pro10 extends Thread
 	
 	public static void main(String[] args) 
 	{
-		
+		Pro10 p = new  Pro10();
+		p.start();
 	}
 }
