@@ -16,12 +16,29 @@ class First
 		try
 		{
 			Thread.sleep(1000);
-			
 		} 
 		catch(InterruptedException e)
 		{
 			System.out.println("Interrupted");
 		}
 		System.out.println("]");
+	}
+}
+
+class Secound implements Runnable
+{
+	String str;
+	First target;
+	Thread t;
+	public Secound(First targ,String s)
+	{
+		target=targ;
+		str=s;
+		t=new Thread(this);
+		t.start();
+	}
+	public void run()
+	{
+		target.call(str);
 	}
 }
