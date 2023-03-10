@@ -9,7 +9,7 @@ public class Pro10 extends Thread
 			try 
 			{
 				Thread.sleep(1000);
-				System.out.println("Download...!");
+				System.out.println("Download...");
 			}
 			catch (Exception e) 
 			{
@@ -20,7 +20,6 @@ public class Pro10 extends Thread
 	
 	public static void main(String[] args) 
 	{
-		Pro10 p = new  Pro10();
-		p.start();
+		
 	}
 }
