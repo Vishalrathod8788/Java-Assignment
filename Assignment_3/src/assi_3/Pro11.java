@@ -22,7 +22,9 @@ public class Pro11 implements Runnable
 
 	public static void main(String[] args) 
 	{
-
+		Pro11 p11 = new Pro11();
+		Thread t = new Thread(p11);
+		t.start();
 	}
 	
 }
